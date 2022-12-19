@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #001233;
-  background-color: white;
+  background-color: #f0dff4;
 }
 
 a {
@@ -34,7 +34,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007311;
+  background: #0563bb;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -68,7 +68,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #f0d5d5;
 }
 
 #preloader:before {
@@ -176,7 +176,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: black;
+  background: rgb(1 94 139);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -290,7 +290,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgb(78, 161, 211,0.95);
+  background-image: linear-gradient(-225deg, #03A9F4  0%, rgb(195 172 235) 30%,rgb(11 233 206 / 50%)100%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -302,18 +302,20 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 56px;
-  color:black;
-  font-family: "Poppins", sans-serif;
+  color:rgb(1 94 139);
+  font-family: 'Helvetica' ,"Poppins", sans-serif;
+ 
+
 }
 
 #hero p {
   color: black;
   margin: 15px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+
 }
 
 #hero p span {
@@ -365,10 +367,10 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 36x;
+ 
   }
-
   #hero p {
     margin-top: 10px;
     font-size: 20px;
@@ -416,7 +418,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #009688;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -429,7 +431,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .hs {
-  color:black;
+  color:#009688;
 
 }
 .about .content p {
@@ -470,7 +472,7 @@ section {
 # Facts
 --------------------------------------------------------------*/
 .facts .hs {
-  color:black;
+  color:#009688;
 }
 
 .facts .count-box .simg{
@@ -483,7 +485,7 @@ width: 35px;
   width: 100%;
   position: relative;
   text-align: center;
-  background:rgb(78, 161, 211);
+  background:rgb(44 121 158);
   color: #fff;
 }
 
@@ -527,14 +529,14 @@ width: 35px;
 # Services
 --------------------------------------------------------------*/
 .services .hs {
-  color:black;
+  color:#009688;
 }
 
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background:rgb(78, 161, 211);
+  background:rgb(44 121 158);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -573,7 +575,7 @@ width: 35px;
 }
 
 .services .icon-box h4 a {
-  color: #f5f8fa;
+  color: #efeff0;
   transition: ease-in-out 0.3s;
 }
 
@@ -581,8 +583,8 @@ width: 35px;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color:black;
-  text-align: justify;
+  color:#adb5bd;
+  text-align: justify,center;
   font-family: " sans-serif, Helvetica Neue", Helvetica;
 }
 
@@ -600,7 +602,7 @@ width: 35px;
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: black;
+  fill: #9E9E9E;
 }
 
 .services .iconbox-orange i {
@@ -612,7 +614,7 @@ width: 35px;
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #9E9E9E;
 }
 
 .services .iconbox-pink i {
@@ -624,7 +626,7 @@ width: 35px;
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #9E9E9E;
 }
 
 .services .iconbox-yellow i {
@@ -678,13 +680,13 @@ width: 35px;
 # Contact
 --------------------------------------------------------------*/
 .contact .hs {
-  color:black;
+  color:#009688;
 }
 
 
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #f0dff4;
 }
 
 .contact .info i {
@@ -736,7 +738,7 @@ width: 35px;
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #f0dff4;
 }
 
 .contact .php-email-form .form-group {
@@ -838,8 +840,8 @@ width: 35px;
 --------------------------------------------------------------*/
 
 #footer {
-  background: rgb(78, 161, 211);
-  color: white;
+  background-image: linear-gradient(-225deg, #03A9F4  0%, rgb(195 172 235) 30%,rgb(11 233 206 / 50%)100%);
+  color: rgb(1 94 139);
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -868,7 +870,7 @@ width: 35px;
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007311;
+  background: #0563bb;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -895,7 +897,7 @@ width: 35px;
   height: 200px;
   width: 200px;
   margin: auto;
-  background-color: black;
+  background-color: rgb(1 94 139);
   animation-name: stretch;
   animation-duration: 5.0s;
   animation-timing-function: ease-out;
@@ -907,7 +909,7 @@ width: 35px;
 @keyframes stretch {
   0% {
       transform: scale(.5);
-      background-color:black;
+      background-color:rgb(1 94 139);
       border-radius: 100%;
   }
 
@@ -929,12 +931,12 @@ width: 35px;
   color:#FF595A ;
 }
 .testimonials .mp h3{
-  color: black;
+  color: #009688;
   font-weight: 600;
 }
 
 .testimonials .section-title .hs {
-  color:black;
+  color:#009688;
 }
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -951,8 +953,6 @@ width: 35px;
 
 .testimonials .testimonial-item .testimonial-img {
   width: 800px;
-
-  border: 4px solid #fff;
   margin: 0 auto;
 }
 
@@ -1009,9 +1009,7 @@ width: 35px;
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0563bb;
 }
-.testimonials  .swiper-slide .testimonial-item {
-  background-color: #f3f4f5;
-}
+
 
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {

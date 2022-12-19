@@ -1,1 +1,1 @@
-web: gunicorn scodeproject.wsgi
+web: gunicorn CCMS.wsgi --log-file -
