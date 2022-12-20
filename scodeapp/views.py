@@ -5,10 +5,5 @@ from datetime import time as t
 
 # Create your views here.
 def index(request):
-	start=d(2021,2,2)
-	end=d.today()
-	result=start - end
-	myhours=result*24
-
-	return render(request, "index.html",{'myhours':myhours})
+	return render(request, "index.html")
 
