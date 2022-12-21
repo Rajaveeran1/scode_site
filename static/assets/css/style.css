@@ -249,7 +249,7 @@ h6 {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
-  background-color: #007311;
+  background-color: #f2f5f2;
 }
 
 .mobile-nav-toggle i {
@@ -320,7 +320,7 @@ h6 {
 
 #hero p span {
   font-size: 16px;
-  color:  white;
+  color:  rgb(26, 25, 25);
   letter-spacing: 1px;
 }
 
@@ -331,7 +331,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: whitesmoke;
+  color:  #00acee;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -351,7 +351,7 @@ h6 {
   
 }
 
-#hero .social-links a .linkedin {
+#hero .social-links  .linkedin {
   
   color: #0077b5 ;
   
@@ -435,10 +435,11 @@ section {
 
 }
 .about .content p {
-  font-weight: 700px;
-  font-size: 18px;
+  font-weight: 400px;
+  font-size: 16px;
   color: black;
   text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -715,7 +716,7 @@ width: 35px;
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #FF595A;
+  color: #484545;
 }
 
 .contact .info .email,
@@ -726,7 +727,8 @@ width: 35px;
 }
 .contact .email p a,
 .contact .phone p a{
-  color: #FF595A;
+  color: #484545;
+
 }
 
 .contact .info .email:hover i,
@@ -979,6 +981,7 @@ width: 35px;
   display: inline-block;
   left: -5px;
   position: relative;
+  
 }
 
 .testimonials .testimonial-item .quote-icon-right {
@@ -991,6 +994,7 @@ width: 35px;
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  color: #484545;
 }
 
 .testimonials .swiper-pagination {
